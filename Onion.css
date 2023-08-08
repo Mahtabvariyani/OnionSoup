@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.pic {
+    background-image: url(./Image/soup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div h1{
+    color: #fff;
+    font-size: 90px;
+    font-weight: lighter;
+}
+.text{
+    padding: 40px;
+text-align: left;
+font-size: 30px;
+color: rgb(97, 96, 96);
+
+}
+
+hr{
+    width: 80%;
+}
+
+
+h4{
+    padding: 30px;
+    color: rgb(85, 84, 84);
+    font-size:50px ;
+    text-align: left;
+}
+
+ul li{
+    font-size: 30px;
+
+    color: rgb(150, 147, 147);
+    list-style: none;
+font-size: 30px;
+margin: 10px;
+}
+.ingredient{
+    padding: 30px;
+}
+.direction{
+    text-align: left;
+    padding: 30px;
+}
+
+ol li{
+    font-size: 30px;
+
+    padding: 10px;
+    color: rgb(150, 147, 147);
+    list-style: none;
+margin: 10px;
+}
+.centered-hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
